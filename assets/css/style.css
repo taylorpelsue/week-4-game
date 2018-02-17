@@ -10,7 +10,8 @@ body {
     background: transparent;
     border: none;
     margin-top: 15%;
-    margin-right: 15%;
+    margin-right: 5%;
+    margin-left: 15%;
 }
 .card-title {
     text-align: center;
@@ -22,4 +23,23 @@ body {
     text-align: center;
     font-size: 18px;
     font-family: cambria;
+}
+#fighters{
+    margin-right: 20px;
+    margin-top: 2%;
+}
+.container {
+   margin-left: 2%; 
+}
+#goku {
+    width: 100px;
+}
+#vegeta {
+    width: 100px;
+}
+#piccolo {
+    width: 100px;
+}
+#frieza {
+    width: 100px;
 }
