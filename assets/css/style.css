@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(yellow, orange, red);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+.card {
+    background: transparent;
+    border: none;
+    margin-top: 15%;
+    margin-right: 15%;
+}
+.card-title {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: georgia;
+}
+.card-body {
+    text-align: center;
+    font-size: 18px;
+    font-family: cambria;
+}
