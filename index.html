@@ -19,32 +19,77 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
+    <script src="assets/javascript/rpg.js"></script>
 </head>
 
 <body>
     <div class="container">
-
-
         <div class="row">
             <div class="col-md-6" id="gameside">
+
                 <div class="row" id="fighters">
+                    <p class="choose">Choose A Fighter!</p>
                     <div class="col-md-3">
-                        <img id="goku" src="assets/images/goku.png" alt="goku">
+                        <div class="fighter" id="gokufight">
+
+                            <p class="name">Goku</p>
+                            <p class="hp">100</p>
+                            <img id="goku" src="assets/images/goku.png" alt="goku">
+
+                        </div>
                     </div>
 
                     <div class="col-md-3">
-                        <img id="vegeta" src="assets/images/vegeta.png" alt="vegeta">
+                        <div class="fighter" id="vegetafight">
+                            <p class="name">Vegeta</p>
+                            <p class="hp">100</p>
+                            <img id="vegeta" src="assets/images/vegeta.png" alt="vegeta">
+                        </div>
                     </div>
 
                     <div class="col-md-3">
-                        <img id="piccolo" src="assets/images/piccolo.png" alt="piccolo">
+                        <div class="fighter" id="piccolofight">
+                            <p class="name">Piccolo</p>
+                            <p class="hp">100</p>
+                            <img id="piccolo" src="assets/images/piccolo.png" alt="piccolo">
+                        </div>
                     </div>
 
                     <div class="col-md-3">
-                        <img id="frieza" src="assets/images/frieza.png" alt="frieza">
+                        <div class="fighter" id="friezafight">
+                            <p class="name">Frieza</p>
+                            <p class="hp">100</p>
+                            <img id="frieza" src="assets/images/frieza.png" alt="frieza">
+                        </div>
                     </div>
 
+                </div>
+                <div class="row">
+                    <p class="enemies">Enemies to Fight</p>
+                    <div class="col-md-3" id="enemy1">
+
+                    </div>
+                    <div class="col-md-3" id="enemy2">
+
+                    </div>
+                    <div class="col-md-3" id="enemy3">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <p class="battlefield">Battle!</p>
+                    <div class="col-md-3" id="you">
+
+                    </div>
+                    <div class="col-md-3" id="vs">
+                        <p><br>
+                            VS
+                            <button><h1>Attack!</h1></button></p>
+                    </div>
+                    <div class="col-md-3" id="defense">
+
+                    </div>
                 </div>
             </div>
             <div class="col-md-6" id="logoside">
@@ -60,7 +105,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

@@ -24,22 +24,118 @@ body {
     font-size: 18px;
     font-family: cambria;
 }
+.choose {
+    text-align: center;
+    background-color: rgb(0, 0, 165) ;
+    color: white;
+    padding: 5px;
+    width: 524px;
+    font-family: cambria;
+    font-size: 20px;
+    margin-top: 5px;
+    border: solid;
+    border-color:rgb(0, 0, 165) ;
+    border: 1px;
+    border-radius: 100%;
+    
+}
+h1 {
+    font-size: 20px;
+}
+#vs {
+    color: black;
+    font-size: 30px;
+    font-family: cambria;
+    text-align: center;
+}
+.enemies {
+    text-align: center;
+    background-color: rgb(0, 0, 165) ;
+    color: white;
+    padding: 5px;
+    width: 524px;
+    font-family: cambria;
+    font-size: 20px;
+    margin-top: 15px;
+    border: solid;
+    border-color:rgb(0, 0, 165) ;
+    border: 1px;
+    border-radius: 100%
+    
+}
+.battlefield {
+    text-align: center;
+    background-color: rgb(0, 0, 165) ;
+    color: white;
+    padding: 5px;
+    width: 524px;
+    font-family: cambria;
+    font-size: 20px;
+    margin-top: 15pxpx;
+    border: solid;
+    border-color:rgb(0, 0, 165) ;
+    border: 1px;
+    border-radius: 100%
+    
+}
+#you {
+    height: 125px;
+}
+#enemy1 {
+    height: 125px;
+}
+#enemy2 {
+    height: 125px;
+}
+#enemy3 {
+    height: 125px;
+}
+#defense {
+    height: 125px;
+}
 #fighters{
-    margin-right: 20px;
+    margin-right: 0px;
     margin-top: 2%;
+    padding-right: 0%;
+    padding-left: 0%;
+}
+.fighter {
+    border: 4px;
+    border-color: black;
+    background: transparent;
+    border-style: solid;
+    margin: 1px;
+    height: 121px;
+
+}
+
+.row {
+    padding: 0%;
+}
+.name {
+    text-align: center;
+    color: black;
+}
+.hp {
+    text-align: center;
+    color: black;
 }
 .container {
    margin-left: 2%; 
 }
 #goku {
-    width: 100px;
+    width: 75px;
+    padding-left: 10%;
 }
 #vegeta {
-    width: 100px;
+    width: 75px;
+    padding-left: 10%;
 }
 #piccolo {
-    width: 100px;
+    width: 75px;
+    padding-left: 10%;
 }
 #frieza {
-    width: 100px;
+    width: 80px;
+    padding-left: 10%;
 }
