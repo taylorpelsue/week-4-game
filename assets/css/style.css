@@ -123,19 +123,10 @@ h1 {
 .container {
    margin-left: 2%; 
 }
-#goku {
+.fighter-image {
     width: 75px;
     padding-left: 10%;
 }
-#vegeta {
-    width: 75px;
-    padding-left: 10%;
-}
-#piccolo {
-    width: 75px;
-    padding-left: 10%;
-}
-#frieza {
-    width: 80px;
-    padding-left: 10%;
+#startover {
+    margin-top: 40%;
 }
