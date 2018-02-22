@@ -3,33 +3,33 @@ var enemyFighter;
 var fighters = {
     'goku': {
         id: "gokufight",
-        name: 'Goku',
-        hp: 148,
-        power: 10,
+        name: 'Goku',                           //100 120 150 180
+        hp: 120,
+        power: 14,
         increment: 5,
         image: 'goku.png'
     },
     'vegeta': {
         id: "vegetafight",
         name: 'Vegeta',
-        hp: 145,
-        power: 10,
+        hp: 150,
+        power: 12,
         increment: 4,
         image: 'vegeta.png'
     },
     'piccolo': {
         id: "piccolofight",
         name: 'Piccolo',
-        hp: 137,
-        power: 8,
-        increment: 6,
+        hp: 100,
+        power: 10,
+        increment: 7,
         image: 'piccolo.png'
     },
     'frieza': {
         id: "friezafight",
         name: 'Frieza',
-        hp: 150,
-        power: 12,
+        hp: 180,
+        power: 15,
         increment: 3,
         image: 'frieza.png'
     }
@@ -114,6 +114,7 @@ function fighterChosen() {
         if (chosenFighter.hp <= 0) {
 
             $("#vs").html("Game Over! Try again?");
+            $("#" + enemyFighter.id).hide();
             $("#attack").hide();
             $("#startover").show();
         }
