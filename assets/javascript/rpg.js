@@ -4,33 +4,33 @@ var fighters = {
     'goku': {
         id: "gokufight",
         name: 'Goku',                           //100 120 150 180
-        hp: 120,
+        hp: 144,
         power: 14,
-        increment: 5,
+        increment: 7,
         image: 'goku.png'
     },
     'vegeta': {
         id: "vegetafight",
         name: 'Vegeta',
-        hp: 150,
+        hp: 167,
         power: 12,
-        increment: 4,
+        increment: 6,
         image: 'vegeta.png'
     },
     'piccolo': {
         id: "piccolofight",
         name: 'Piccolo',
-        hp: 100,
+        hp: 140,
         power: 10,
-        increment: 7,
+        increment: 11,
         image: 'piccolo.png'
     },
     'frieza': {
         id: "friezafight",
         name: 'Frieza',
-        hp: 180,
+        hp: 189,
         power: 15,
-        increment: 3,
+        increment: 2,
         image: 'frieza.png'
     }
 }
